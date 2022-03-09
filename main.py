@@ -47,6 +47,7 @@ class docx_crack:
                     docx.Close()
                     thread_title.Close()
                     loc.release()
+                    break
                 except:
                     loc.release()
             else:
